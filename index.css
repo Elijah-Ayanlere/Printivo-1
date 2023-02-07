@@ -1,0 +1,750 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    height: 200px;
+    overflow-x: hidden;
+}
+#border{
+    position: relative;
+    /* border: 2px solid red 
+    height: 410px;
+    top: -825px;solid red; */
+    height: 65px;
+    background-color: #F7F6F4;
+}
+nav{
+    position: relative;
+    display: flex;
+    width: 84%;
+    top: -30px;
+    left: -100px;
+    margin: auto;
+    padding: 30px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 20px 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #506683;
+    font-size: 13px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+}
+.txt{
+    position: relative;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 13px;
+    color: #506683;
+    font-weight: 500;
+    top: -115px;
+    left: 700px;
+}
+.txt a{
+    text-decoration: none;
+    font-weight: 600;
+    color: #1DA1F2;
+}
+.img{
+    position: relative;
+    top: -140px;
+    left: 1050px;
+}
+.border2{
+    position: relative;
+    border: 1px solid #CBCAC8;
+    cursor: pointer;
+    height: 39px;
+    width: 7.3%;
+    border-radius: 50px;
+    left: 1120px;
+    top: -175px;
+}
+.img2{
+    position: relative;
+    left: 10px;
+    top: 5px;
+}
+.txt2{
+    position: relative;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+    top: -15px;
+    left: 35px;
+}
+.txt2 a{
+    text-decoration: none;
+    color: #506683;
+}
+.border3{
+    position: relative;
+    /* border: 2px solid red 
+    height: 410px;
+    top: -825px;solid red; */
+    background-color: #ECE8D9;
+    height: 470px;
+}
+.img3{
+    position: relative;
+    top: 30px;
+    left: 50px;
+}
+.img4{
+    position: relative;
+    /* border: 2px solid red 
+    height: 410px;
+    top: -825px;solid red; */
+    background-image: url(/Printivo\ Image/Card3_n9kqin.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 330px;
+    width: 80%;
+    left: 850px;
+    top: 100px;
+}
+.list{
+    position: relative;
+    display: flex;
+    width: 80%;
+    top: -375px;
+    left: 300px;
+    margin: auto;
+    padding: 30px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+.list ul li{
+    display: inline-block;
+    margin: 10px 10px;
+}
+#in{
+    position: relative;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14.5px;
+    font-weight: 600;
+    color: #D77F81;
+    cursor: pointer;
+    left: 50px;
+}
+.list ul li a{
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    color: #384A62;
+}
+.list ul li a:hover{
+    color: #4B6382;
+}
+.img5{
+    position: relative;
+    left: -250px;
+    top: -5px;
+}
+.txt3{
+    position: relative;
+    font-family: "dm serif display",serif;
+    font-size: 68px;
+    font-weight: 700;
+    color: #384A62;
+    left: 50px;
+    top: -350px;
+}
+.txt4{
+    position: relative;
+    font-family: SF Pro,sans-serif;
+    font-size: 25px;
+    font-weight: 550;
+    color: #708095;
+    top: -350px;
+    left: 50px;
+}
+.txt5{
+    position: relative;
+    font-family: SF Pro,sans-serif;
+    cursor: default;
+    font-size: 16px;
+    font-weight: 700;
+    color: #384A62;
+    top: -320px;
+    left: 50px;
+}
+.form{
+    position: relative;
+    border: 1px solid #E8E8E8;
+    outline: #E8E8E8;
+    cursor: text;
+    height: 88px;
+    top: -320px;
+    left: 50px;
+    width: 50%;
+}
+.form::placeholder{
+    position: relative;
+    font-family: SF Pro,sans-serif;
+    font-size: 16px;
+    text-indent: 20px;
+    color: #adadad;
+    left: 10px;
+}
+.img6{
+    position: relative;
+    cursor: pointer;
+    top: -380px;
+    left: 630px;
+}
+.border4{
+    position: relative;
+    /* border: 2px solid red 
+    height: 410px;
+    top: -825px;solid red; */
+    height: 1000px;
+}
+.txt6{
+    position: relative;
+    font-family: "dm serif display",serif;
+    font-size: 30px;
+    font-weight: 550;
+    color: #384A62;
+    left: 50px;
+    top: 55px;
+}
+.txt7{
+    position: relative;
+    font-family: SF Pro,sans-serif;
+    font-size: 16px;
+    font-weight: 550;
+    top: 20px;
+    left: 1100px;
+}
+.txt7 a{
+    text-decoration: none;
+    color:  #D77F81;
+}
+.display{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    width: 100%;
+}
+.card{
+    position: relative;
+    cursor: pointer;
+    height: 460px;
+    top: -880px;
+    left: 50px;
+}
+.card-title{
+    position: relative;
+    font-family: SF Pro,sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    color: #384A62;
+    top: 15px;
+}
+.card-text{
+    position: relative;
+    font-family: SF Pro,sans-serif;
+    font-size: 13px;
+    font-weight: 700;
+    color: #708095;
+    top: 30px;
+}
+.card-text2{
+    position: relative;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    color: #384A62;
+    top: 20px;
+}
+span{
+    position: relative;
+    font-family: SF Pro,sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    color: #708095;
+    top: 20px;
+}
+.btn{
+    position: relative;
+    border: 0px solid  #E5E7EB;
+    background-color: #D77F81;
+    border-radius: 2;
+    height: 40px;
+    top: 40px;
+    width: 85%;
+}
+.btn:hover{
+    background-color: #D77F81;
+}
+.txt8{
+    position: relative;
+    font-family: "dm serif display",serif;
+    font-size: 32px;
+    font-weight: 550;
+    color: #384A62;
+    top: -800px;
+    left: 50px;
+}
+.txt9{
+    position: relative;
+    font-family: SF Pro,sans-serif;
+    font-size: 16px;
+    font-weight: 550;
+    top: -820px;
+    left: 1050px;
+}
+.txt9 a{
+    text-decoration: none;
+    color:  #D77F81;
+}
+.display2{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    width: 100%;
+}
+.card2{
+    position: relative;
+    cursor: pointer;
+    height: 460px;
+    top: -800px;
+    left: 50px;
+}
+.card2-title{
+    position: relative;
+    font-family: SF Pro,sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    color: #384A62;
+    top: 15px;
+}
+.card2-text{
+    position: relative;
+    font-family: SF Pro,sans-serif;
+    font-size: 13px;
+    font-weight: 700;
+    color: #708095;
+    top: 30px;
+}
+.card2-text2{
+    position: relative;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    color: #384A62;
+    top: 20px;
+}
+span{
+    position: relative;
+    font-family: SF Pro,sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    color: #708095;
+    top: 20px;
+}
+.btn{
+    position: relative;
+    border: 0px solid  #E5E7EB;
+    background-color: #D77F81;
+    border-radius: 2;
+    height: 40px;
+    top: 40px;
+    width: 85%;
+}
+.btn:hover{
+    background-color: #D77F81;
+}
+.txt10{
+    position: relative;
+    font-family: "dm serif display",serif;
+    font-size: 30px;
+    font-weight: 600;
+    color: #384A62;
+    top: -700px;
+    left: 50px;
+}
+.txt11{
+    position: relative;
+    font-family:  "SF Pro", sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    color: #506683;
+    top: -700px;
+    left: 50px;
+}
+.img7{
+    position: relative;
+    /* border: 2px solid red 
+    height: 410px;
+    top: -825px;solid red; */
+    background-image: url(/Printivo\ Image/Group_61_h8vxko.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    top: -670px;
+    left: 50px;
+    width: 90%;
+    height: 150px;
+}
+.border{
+    position: relative;
+    /* border: 2px solid red 
+    height: 410px;
+    top: -825px;solid red; */
+    background-color: #EDF6FD;
+    height: 350px;
+    top: -600px;
+}
+.txt12{
+    position: relative;
+    font-family:  "dm serif display", serif;
+    font-size: 30px;
+    font-weight: 600;
+    color: #384A62;
+    top: -900px;
+    left: 50px;
+}
+.play{
+    position: relative;
+    display: flex;
+    gap: 30px;
+}
+.card3{
+    position: relative;
+    box-shadow: 0 0 1px;
+    border-radius: 2px solid red;
+    height: 410px;
+    top: -825px;
+    background-color: #ffffff;
+    top: -880px;
+    left: 50px;
+    width: 29%;
+    height: 180px;
+}
+.border5{
+    position: relative;
+    border: 1px solid #a7a7a780;
+    border-radius: 100px;
+    width: 9%;
+    height: 32px;
+    top: 20px;
+    left: 20px;
+}
+.logo img{
+    position: relative;
+    left: 10px;
+    width: 40%;
+}
+.txt13{
+    position: relative;
+    font-family: "SF Pro", sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    color:  #384A62;
+    left: 70px;
+    top: -10px;
+}
+.txt14{
+    position: relative;
+    left: 160px;
+    top: -35px;
+}
+.txt14 a{
+    font-family: "SF Pro", sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    color:  #1DA1F2;
+    text-decoration: none;
+}
+.txt15{
+    position: relative;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    line-height: 23px;
+    color:  #384A62;
+    left: 70px;
+    top: -20px;
+}
+.txt15 a{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    text-decoration: none;
+    color:  #1DA1F2;
+}
+.border6{
+    position: relative;
+    /* border: 2px solid red 
+    height: 410px;
+    top: -825px;solid red; */
+    background-color: #ffffff;
+    height: 380px;
+    top: -825px;
+}
+.play2{
+    display: flex;
+}
+.txt16{
+    position: relative;
+    font-family: "dm serif display", serif;
+    font-size: 31px;
+    font-weight: 600;
+    color:  #384A62;
+    top: 120px;
+    left: 50px;
+}
+.line{
+    position: relative;
+    /* border: 2px solid red 
+    height: 410px;
+    top: -825px;solid red; */
+    width: 30%;
+}
+.txt17{
+    position: relative;
+    font-family: "SF Pro", sans-serif;
+    font-size: 15px;
+    font-weight: 550;
+    color:  #384A62;
+    top: 130px;
+    left: 130px;
+}
+.txt18{
+    position: relative;
+    font-family: "SF Pro", sans-serif;
+    font-size: 15.5px;
+    color:  #677F9E;
+    top: 135px;
+    left: 130px;
+}
+.logo2 img{
+    position: relative;
+    top: 32px;
+    left: 50px;
+}
+.line2{
+    position: relative;
+    /* border: 2px solid red 
+    height: 410px;
+    top: -825px;solid red; */
+    width: 30%;
+    left: 30px;
+}
+.txt19{
+    position: relative;
+    font-family: "SF Pro", sans-serif;
+    font-size: 15px;
+    font-weight: 550;
+    color:  #384A62;
+    top: 130px;
+    left: 130px;
+}
+.txt20{
+    position: relative;
+    font-family: "SF Pro", sans-serif;
+    font-size: 15.5px;
+    color:  #677F9E;
+    top: 135px;
+    left: 130px;
+}
+.logo3 img{
+    position: relative;
+    top: 32px;
+    left: 50px;
+}
+.line3{
+    position: relative;
+    /* border: 2px solid red 
+    height: 410px;
+    top: -825px;solid red; */
+    width: 30%;
+    left: 50px;
+}
+.txt21{
+    position: relative;
+    font-family: "SF Pro", sans-serif;
+    font-size: 15px;
+    font-weight: 550;
+    color:  #384A62;
+    top: 130px;
+    left: 130px;
+}
+.txt22{
+    position: relative;
+    font-family: "SF Pro", sans-serif;
+    font-size: 15.5px;
+    color:  #677F9E;
+    top: 135px;
+    left: 130px;
+}
+.logo4 img{
+    position: relative;
+    top: 32px;
+    left: 50px;
+}
+.border7{
+    position: relative;
+    /* border: 2px solid red 
+    height: 410px;
+    top: -825px;solid red; */
+    background-color: #F7F6F4;
+    height: 303px;
+    top: -825px;
+}
+.txt23{
+    position: relative;
+    font-family: "dm serif display", serif;
+    font-size: 31px;
+    font-weight: 600;
+    color:  #384A62;
+    top: 80px;
+    left: 50px;
+}
+.play3{
+    display: flex;
+}
+.line5{
+    position: relative;
+    /* border: 2px solid red 
+    height: 410px;
+    top: -825px;solid red; */
+    height: 100px;
+    width: 22%;
+}
+.logo5{
+    position: relative;
+    top: 100px;
+    left: 50px;
+}
+.txt24{
+    position: relative;
+    top: 110px;
+    left: 50px;
+}
+.txt24 a{
+    font-family: "SF Pro", sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    color:  #384A62;
+}
+.border8{
+    position: relative;
+    /* border: 2px solid red; */
+    background-color: #384A62;
+    height: 412px;
+    top: -825px;
+}
+.play5{
+    display: flex;
+}
+.line6{
+    position: relative;
+    /* border: 2px solid red; */
+    height: 250px;
+    width: 10%;
+    top: 65px;
+    left: 50px;
+}
+.txt25{
+    position: relative;
+    font-family: "SF Pro", sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    color:  #ECE8D9;
+}
+.txt26{
+    position: relative;
+    top: 10px;
+}
+.txt26 li{
+    position: relative;
+    list-style: none;
+}
+.txt26 li a{
+    font-family: "SF Pro", sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    text-decoration: none;
+    line-height: 28px;
+    color: #ffffff;
+}
+.line7{
+    position: relative;
+    /* border: 2px solid red; */
+    height: 250px;
+    width: 20%;
+    top: 65px;
+    left: 210px;
+}
+.line8{
+    position: relative;
+    /* border: 2px solid red; */
+    height: 250px;
+    width: 20%;
+    top: 65px;
+    left: 250px;
+}
+.line9{
+    position: relative;
+    /* border: 2px solid red; */
+    height: 250px;
+    width: 20%;
+    top: 65px;
+    left: 290px;
+}
+.image{
+    position: relative;
+    /* border: 2px solid red; */
+    top: 10px;
+}
+.line10{
+    position: relative;
+    /* border: 2px solid red; */
+    height: 250px;
+    width: 20%;
+    top: -90px;
+    left: 920px;
+}
+.image2 img{
+    position: relative;
+    /* border: 2px solid red; */
+    /* width: 20%; */
+    height: 18px;
+    top: 10px;
+}
+.line11{
+    position: relative;
+    /* border: 2px solid red; */
+    height: 250px;
+    width: 20%;
+    top: -250px;
+    left: 920px;
+}
+.image3 img{
+    position: relative;
+    /* border: 2px solid red; */
+    /* width: 20%; */
+    height: 18px;
+    top: 10px;
+}
+.border9{
+    position: relative;
+    /* border: 2px solid red; */
+    background-color: #CBCAC8;
+    height: 90px;
+    top: -825px;
+}
+.txt26{
+    position: relative;
+    font-family: "SF Pro", sans-serif;
+    font-size: 17px;
+    color:  #384A62;
+    text-align: center;
+    top: 32px;
+}
