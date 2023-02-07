@@ -648,6 +648,7 @@ span{
     /* border: 2px solid red; */
     height: 250px;
     width: 10%;
+    text-align: left;
     top: 65px;
     left: 50px;
 }
@@ -665,6 +666,7 @@ span{
 .txt26 li{
     position: relative;
     list-style: none;
+    top: -17px;
 }
 .txt26 li a{
     font-family: "SF Pro", sans-serif;
